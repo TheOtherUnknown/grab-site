@@ -11,7 +11,7 @@ import libgrabsite
 
 install_requires = [
 	"click>=6.3",
-	"wpull @ https://github.com/ArchiveTeam/ludios_wpull/archive/refs/tags/3.0.9.zip",
+	"wpull @ git+https://github.com/TheOtherUnknown/ludios_wpull.git",
 	"manhole>=1.0.0",
 	"lmdb>=0.89",
 	"autobahn>=0.12.1",
